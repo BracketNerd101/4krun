@@ -2,3 +2,50 @@ body {
 
 
 }
+
+/* ---------Run brand color
+
+#f53269
+
+---------------------------*/
+
+/*----------------------------
+Run brand text
+
+
+--------------------------*/
+
+
+.run_home_banner {
+
+   background-image: url(../img/pink-glasses-banner.jpg);
+   background-size: cover;
+   height: 46rem;
+   width: 100%;
+   min-width: 100%;
+
+}
+
+
+.banner_header_run {
+
+   margin-top: 16rem;
+
+}
+
+.banner_CTA {
+
+   margin-top: 2rem;
+
+}
+
+.banner_header_run_color {
+
+    background-color: rgba(245, 50, 105, 0.5);
+    padding-left: 0.9rem;
+    padding-top: 0.9rem;
+    padding-right: 0.9rem;
+    padding-bottom: 0.9rem;
+    margin-bottom: 2.5rem;
+
+}
