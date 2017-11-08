@@ -15,7 +15,6 @@ Run brand text
 
 --------------------------*/
 
-
 .run_home_banner {
 
    background-image: url(../img/pink-glasses-banner.jpg);
@@ -26,19 +25,13 @@ Run brand text
 
 }
 
-
 .banner_header_run {
-
-   margin-top: 16rem;
-
+   margin-top: 13rem;
 }
 
 .banner_CTA {
-
-   margin-top: 2rem;
-
+   margin-top: 3rem;
 }
-
 .banner_header_run_color {
 
     background-color: rgba(245, 50, 105, 0.5);
@@ -47,5 +40,32 @@ Run brand text
     padding-right: 0.9rem;
     padding-bottom: 0.9rem;
     margin-bottom: 2.5rem;
+}
+.about_run {
+ margin-top: 5rem;
+ margin-bottom: 9rem;
+}
 
+.marathon_intro_section {
+
+  margin-top: 9rem;
+}
+
+.marathon_img {
+  background-image: url(../img/bw_marathon.jpg);
+  background-size: cover;
+  height: 20rem;
+  width: 100%
+
+}
+
+.time_line_info {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+#milestone_small_header {
+
+  color: #f53269;
 }
