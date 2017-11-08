@@ -15,6 +15,11 @@ Run brand text
 
 --------------------------*/
 
+#logo_style {
+
+  z-index: 14000000000 !important;
+}
+
 .run_home_banner {
 
    background-image: url(../img/pink-glasses-banner.jpg);
@@ -68,4 +73,12 @@ Run brand text
 #milestone_small_header {
 
   color: #f53269;
+}
+
+
+.bg-timeline {
+
+background-color: #f53269;
+margin-top: 8rem;
+
 }
