@@ -1,6 +1,6 @@
 body {
 
-
+min-height: 2300px;
 }
 
 /* ---------Run brand color
@@ -24,25 +24,19 @@ font-family: 'Raleway', sans-serif;
   left: 0px;
 }
 
-
-/* Smooth scroling CSS --------*/
-a {
-
-    transition: all 4.3s ease-out;
-    transition-property: all;
-    transition-duration: 6.8s;
-    transition-timing-function: ease-out;
-    transition-delay: initial;
-
-}
-
-/*--------------------------*/
-
 .run_home_banner {
 
    background-image: url(../img/pink-glasses-banner.jpg);
    background-size: cover;
-   height: 46rem;
+   /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   height: 50rem;
    width: 100%;
    min-width: 100%;
 
@@ -78,6 +72,12 @@ a {
     margin-bottom: 2.5rem;
 }
 
+a:hover {
+  transition: 1.2s;
+  transition-delay: 1.2s;
+
+}
+
 .about_run {
  margin-top: 5rem;
  margin-bottom: 4rem;
@@ -94,6 +94,11 @@ a {
   height: 20rem;
   width: 100%
 
+}
+
+.about_mini_join {
+
+  font-family: 'Raleway', sans-serif;
 }
 
 .about_run_header {
