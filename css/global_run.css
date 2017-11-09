@@ -1,201 +1,153 @@
 body {
-
 min-height: 2300px;
 }
-
 /* ---------Run brand color
-
 #f53269
-
 ---------------------------*/
-
 /*----------------------------
 Run brand text
 font-family: 'Montserrat', sans-serif;
 font-family: 'Archivo Narrow', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;
-
 --------------------------*/
-
+.wow {
+visibility: hidden;
+}
+.logo_sizing {
+height: 4.5rem;
+}
 #logo_style {
-
-  z-index: 14000000000 !important;
-  left: 0px;
+z-index: 14000000000 !important;
+left: 0px;
 }
-
+.btn_pill_reg_button_top {
+border-radius: 0px;
+background-color: #f53269;
+}
 .run_home_banner {
-
-   background-image: url(../img/pink-glasses-banner.jpg);
-   background-size: cover;
-   /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-
-   height: 50rem;
-   width: 100%;
-   min-width: 100%;
-
+background-image: url(../img/pink-glasses-banner.jpg);
+background-size: cover;
+/* Full height */
+height: 100%;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+height: 50rem;
+width: 100%;
+min-width: 100%;
 }
-
 .mini_ban_text {
-  font-family: 'Montserrat', sans-serif;
-    margin-top: -3rem;
-
+font-family: 'Montserrat', sans-serif;
+margin-top: -3rem;
 }
-
 .btn_pill_reg_button {
-
-  border-radius: 2rem;
-
+border-radius: 2rem;
 }
-
 .banner_header_run {
-   margin-top: 13rem;
-   font-family: 'Archivo Narrow', sans-serif;
+margin-top: 13rem;
+font-family: 'Archivo Narrow', sans-serif;
 }
-
 .banner_CTA {
-   margin-top: 3rem;
+margin-top: 3rem;
 }
 .banner_header_run_color {
-
-    background-color: rgba(245, 50, 105, 0.5);
-    padding-left: 0.9rem;
-    padding-top: 0.9rem;
-    padding-right: 0.9rem;
-    padding-bottom: 0.9rem;
-    margin-bottom: 2.5rem;
+background-color: rgba(245, 50, 105, 0.5);
+padding-left: 0.9rem;
+padding-top: 0.9rem;
+padding-right: 0.9rem;
+padding-bottom: 0.9rem;
+margin-bottom: 2.5rem;
 }
-
-a:hover {
-  transition: 1.2s;
-  transition-delay: 1.2s;
-
-}
-
+/*a:hover {
+transition: 1.2s;
+transition-delay: 1.2s;
+}*/
 .about_run {
- margin-top: 5rem;
- margin-bottom: 4rem;
+margin-top: 5rem;
+margin-bottom: 4rem;
 }
-
 .marathon_intro_section {
-
-  margin-top: 9rem;
+margin-top: 9rem;
 }
-
 .marathon_img {
-  background-image: url(../img/bw_marathon.jpg);
-  background-size: cover;
-  height: 20rem;
-  width: 100%
-
+background-image: url(../img/bw_marathon.jpg);
+background-size: cover;
+height: 20rem;
+width: 100%
 }
-
 .about_mini_join {
-
-  font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
+margin-top: 2rem;
 }
-
 .about_run_header {
-
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 2rem;
-  font-size: 3rem;
-  color: #f53269;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 2rem;
+font-size: 3rem;
+color: #f53269;
 }
-
+/* ---------CSS for TIMELINE Starts-------------------------------*/
 .time_line_info {
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-  color: #f53269;
-  font-family: 'Raleway', sans-serif;
-
+margin-top: 5rem;
+margin-bottom: 3rem;
+color: #f53269;
+font-family: 'Raleway', sans-serif;
 }
-
 #milestone_small_header {
-  color: #f53269;
+color: #f53269;
 }
-
 .bg-timeline {
 /*background-color: #ccc;*/
 background-image: url(../img/Sports.png);
 background-size: cover no repeat;
 margin-top: 8rem;
-
 }
-
 .reg_header {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  font-family: 'Raleway', sans-serif;
-
+margin-top: 3rem;
+margin-bottom: 3rem;
+font-family: 'Raleway', sans-serif;
 }
-
 .payment_mini_section {
-   margin-top: 1rem;
-   margin-bottom: 2rem;
-
+margin-top: 1rem;
+margin-bottom: 2rem;
 }
-
 .btn_pill_button {
-
-   border-radius: 2rem;
-
+border-radius: 2rem;
+background-color: #f53269 ;
 }
-
 .address_mini_section {
-
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-
+margin-top: 6rem;
+margin-bottom: 6rem;
 }
-
 .address_padding_style {
-
-    margin-bottom: 2.5rem;
-
+margin-bottom: 2.5rem;
 }
-
 .partner_header {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    font-family: 'Raleway', sans-serif;
-
+margin-top: 3rem;
+margin-bottom: 3rem;
+font-family: 'Raleway', sans-serif;
 }
-
 .address_mini_section {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-
+margin-top: 6rem;
+margin-bottom: 6rem;
 }
-
 .partner_mini_section {
-    margin-top: 3rem;
-
+margin-top: 7rem;
+margin-bottom: 7rem;
 }
-
 .footer_mini_section {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    font-family: 'Raleway', sans-serif;
-
+margin-top: 2rem;
+margin-bottom: 4rem;
+font-family: 'Raleway', sans-serif;
 }
-
 .footer-bg {
-  background-color: #f53269;
-  height: inherit;
+background-color: #f53269;
+height: inherit;
 }
-
 .hotel_recom_spacing {
-   margin-bottom: 3rem;
-
+margin-bottom: 3rem;
 }
-
 .bottom_hotel_spacing {
-  padding-bottom: 3rem;
+padding-bottom: 3rem;
 }
