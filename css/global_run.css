@@ -18,6 +18,7 @@ Run brand text
 #logo_style {
 
   z-index: 14000000000 !important;
+  left: 0px;
 }
 
 .run_home_banner {
@@ -67,18 +68,59 @@ Run brand text
 .time_line_info {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  color: #f53269;
 
 }
 
 #milestone_small_header {
-
   color: #f53269;
 }
 
-
 .bg-timeline {
-
-background-color: #f53269;
+/*background-color: #ccc;*/
+background-image: url(../img/Sports.png);
+background-size: cover no repeat;
 margin-top: 8rem;
+
+}
+
+.reg_header {
+margin-top: 3rem;
+margin-bottom: 3rem;
+
+}
+
+.payment_mini_section {
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+
+}
+
+.btn_pill_button {
+   border-radius: 2rem;
+   background-color: #f53269;
+
+}
+
+.address_mini_section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+}
+
+.partner_header {
+    /*margin-top: 3rem;*/
+    margin-bottom: 3rem;
+
+}
+
+.address_mini_section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+}
+
+.partner_mini_section {
+    margin-top: 3rem;
 
 }
