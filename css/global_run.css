@@ -199,7 +199,14 @@ margin-bottom: 6rem;
 }
 .partner_mini_section {
 margin-top: 7rem;
-margin-bottom: 7rem;
+margin-bottom: auto;
+padding-bottom: 5rem;
+}
+
+.back_top_top_anchor {
+   margin-top: 4rem;
+   margin-bottom: 4rem;
+  
 }
 .footer_mini_section {
 margin-top: 2rem;
